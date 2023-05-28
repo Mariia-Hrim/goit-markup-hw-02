@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff;
+  background-color: var(--white-background);
 }
 :root {
   --title-color: #2e2f42;
@@ -15,7 +15,7 @@ body {
 /***logo****/
 .header {
 }
-.header-nav link:active {
+.header-nav {
 }
 
 .link {
@@ -24,6 +24,7 @@ body {
 .list {
   list-style: none;
 }
+
 .header-logo-studio {
   font-family: "Raleway", sans-serif;
   font-style: normal;
