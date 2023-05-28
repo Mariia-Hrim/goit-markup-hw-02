@@ -1,6 +1,15 @@
-body {
+.body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
+}
+:root {
+  --title-color: #2e2f42;
+  --accent-color: #404bbf;
+  --subtitle-text: #434455;
+  --active-links: #4d5ae5;
+  --white-background: #ffffff;
+  --light-backgrounds: #f4f4fd;
 }
 /****************************holovna********************/
 /***logo****/
@@ -22,7 +31,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .header-menu-list {
 }
@@ -34,7 +43,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .address {
 }
@@ -52,7 +61,7 @@ body {
 }
 /****hero***/
 .hero {
-  background: #2e2f42;
+  background: var(--title-color);
 }
 .hero-title {
   font-family: "Roboto";
@@ -84,7 +93,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .criteria-item-text {
   font-family: "Roboto";
@@ -101,7 +110,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .question-list {
 }
@@ -116,7 +125,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 
 .team-list {
@@ -129,7 +138,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .team-item-text {
   font-family: "Roboto";
@@ -141,7 +150,7 @@ body {
 }
 /****footer***/
 .footer {
-  background: #2e2f42;
+  background: var(--title-color);
 }
 
 .footer-text {
@@ -215,7 +224,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: #2e2f42;
+  color: var(--title-color);
 }
 .imgs-text {
   font-family: "Roboto";
