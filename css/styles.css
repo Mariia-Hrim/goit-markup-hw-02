@@ -113,7 +113,7 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  background-color: #4d5ae5;
+  font-family: inherit;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -186,11 +186,10 @@ body {
   color: var(--title-color);
 }
 
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
-.team-item {
-}
+
 .team-subtitle {
   font-family: "Roboto";
   font-style: normal;
@@ -222,21 +221,25 @@ body {
   line-height: 1.5;
   color: #f4f4fd;
 }
-.footer-logo {
-  font-family: "Raleway";
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #f4f4fd;
+  color: var(--title-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.footer-logo-web {
-  font-family: "Raleway";
+.footer-logo {
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--active-links);
 }
 .footer-text {
   font-family: "Roboto";
@@ -244,6 +247,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
 /********************imgs page*******************/
