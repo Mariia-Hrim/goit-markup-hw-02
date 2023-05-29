@@ -112,7 +112,7 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero-btn body {
+.hero-btn {
   cursor: pointer;
   background: #4d5ae5;
   font-family: "Roboto";
@@ -171,18 +171,23 @@ body {
 .question-item {
 }
 /***Team ***/
-.Team {
+.team {
+  background-color: #f4f4fd;
 }
 .team-title {
+  text-align: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: var(--title-color);
 }
 
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
@@ -192,6 +197,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--title-color);
 }
 .team-item-text {
@@ -200,6 +206,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 /****footer***/
