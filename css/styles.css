@@ -48,6 +48,8 @@ body {
 .header-menu-list {
 }
 .header-menu-item {
+}
+.header-menu-link {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -55,9 +57,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--title-color);
-}
-.header-menu-link {
-  letter-spacing: 0.02em;
 }
 .header-menu-list:hover {
   color: #404bbf;
