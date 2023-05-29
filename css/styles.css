@@ -56,6 +56,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+.header-menu-link {
+  letter-spacing: 0.02em;
+}
 .header-menu-list:hover {
   color: #404bbf;
 }
@@ -69,10 +72,10 @@ body {
   color: var(--active-links);
 }
 .header-menu-link:hover {
-  color: var(--active-links);
+  color: #404bbf;
 }
 .header-menu-link:focus {
-  color: var(--active-links);
+  color: #404bbf;
 }
 
 .address {
@@ -110,9 +113,8 @@ body {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hero-btn {
+.hero-btn body {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   font-family: "Roboto";
   font-style: normal;
@@ -141,6 +143,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--title-color);
 }
 .criteria-item-text {
@@ -149,15 +152,19 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 /***question****/
 .question-title {
+  text-transform: capitalize;
+  text-align: center;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: var(--title-color);
 }
 .question-list {
