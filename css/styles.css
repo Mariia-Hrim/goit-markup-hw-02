@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--text-color);
   background-color: var(--white-background);
 }
 :root {
@@ -10,6 +10,7 @@ body {
   --active-links: #4d5ae5;
   --white-background: #ffffff;
   --light-backgrounds: #f4f4fd;
+  --text-color: #434455;
 }
 /****************************holovna********************/
 /***logo****/
@@ -227,7 +228,7 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--title-color);
+  color: #f4f4fd;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
