@@ -90,8 +90,9 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
+  line-height: 1.5;
+
   color: var(--subtitle-text);
 }
 .address-link:hover {
@@ -261,13 +262,24 @@ body {
 .varieties-item {
 }
 .varieties-btn-all {
-  background: #404bbf;
+  font-family: inherit;
+  background: #f4f4fd;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.varieties-btn-all:hover {
   color: #ffffff;
+  background-color: #404bbf;
+}
+.varieties-btn-all:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .varieties-btn {
   background: #f4f4fd;
