@@ -200,6 +200,18 @@ ul {
   background-color: #404bbf;
 }
 /***criteria****/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .criteria {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -211,7 +223,7 @@ ul {
   gap: 24px;
 }
 .criteria-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .criteria-subtitle {
   font-family: "Roboto";
@@ -262,6 +274,7 @@ ul {
 }
 .team-container {
   background-color: #f4f4fd;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -277,6 +290,7 @@ ul {
   color: var(--title-color);
   padding-top: 120px;
   margin: 72px;
+  margin-bottom: 8px;
 }
 
 .team-list {
@@ -284,6 +298,10 @@ ul {
   gap: 24px;
 }
 .team-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   background-color: #ffffff;
   width: 264px;
 }
@@ -309,7 +327,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  align-items: center;
+  text-align: center;
 }
 /****footer***/
 .footer-container {
