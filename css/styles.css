@@ -279,10 +279,10 @@ ul {
 }
 .team-container {
   background-color: #f4f4fd;
-  padding-top: 32px;
+  /*padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 16px;*/
 }
 
 .team-title {
@@ -313,8 +313,9 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 .team-text {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 32px 16px;
+  /*padding-top: 16px;
+  padding-bottom: 16px;*/
 }
 
 .team-subtitle {
@@ -341,11 +342,12 @@ ul {
 /****footer***/
 .footer-container {
   background: var(--title-color);
-  padding: 100px 0;
+  /*padding: 100px 0;*/
 }
 .footer {
   background: var(--title-color);
   min-width: 264px;
+  padding: 100px 0;
 }
 
 .footer-text {
