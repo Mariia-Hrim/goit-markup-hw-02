@@ -52,11 +52,11 @@ ul {
   padding-right: 15px;
   margin-left: 0;
   margin-right: 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
@@ -155,13 +155,11 @@ ul {
 }
 /****hero***/
 .hero {
-}
-.hero-container {
   background: var(--title-color);
   padding-top: 188px;
-  padding-right: 472px;
-  padding-bottom: 292px;
-  padding-left: 472px;
+  padding-bottom: 188px;
+}
+.hero-container {
 }
 
 .hero-title {
@@ -192,6 +190,8 @@ ul {
   border: none;
   min-width: 169px;
   height: 56px;
+  display: block;
+  cursor: pointer;
 }
 .hero-btn:hover {
   background-color: #404bbf;
