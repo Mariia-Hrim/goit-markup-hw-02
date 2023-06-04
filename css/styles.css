@@ -12,13 +12,50 @@ body {
   --light-backgrounds: #f4f4fd;
   --text-color: #434455;
 }
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 /****************************holovna********************/
 /***logo****/
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-container {
+  display: flex;
+  align-items: center;
 }
 .header-nav {
+  display: flex;
+  align-items: center;
 }
 
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
 .link {
   text-decoration: none;
 }
@@ -45,6 +82,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--active-links);
+  margin-right: 76px;
 }
 .header-menu-list {
 }
@@ -80,8 +118,11 @@ body {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 .address-list {
+  display: flex;
+  gap: 40px;
 }
 .address-item {
 }
@@ -103,8 +144,15 @@ body {
 }
 /****hero***/
 .hero {
-  background: var(--title-color);
 }
+.hero-container {
+  background: var(--title-color);
+  padding-top: 188px;
+  padding-right: 472px;
+  padding-bottom: 292px;
+  padding-left: 472px;
+}
+
 .hero-title {
   font-family: "Roboto";
   font-style: normal;
@@ -114,7 +162,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  margin-bottom: 48px;
 }
+
 .hero-btn {
   font-family: inherit;
   background-color: #4d5ae5;
@@ -124,6 +175,12 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  min-width: 169px;
+  height: 56px;
 }
 .hero-btn:hover {
   background-color: #404bbf;
@@ -133,10 +190,17 @@ body {
 }
 /***criteria****/
 .criteria {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .criteria-list {
+  display: flex;
+  padding-right: 156px;
+  padding-left: 156px;
+  gap: 24px;
 }
 .criteria-item {
+  width: 264px;
 }
 .criteria-subtitle {
   font-family: "Roboto";
@@ -146,6 +210,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-bottom: 8px;
 }
 .criteria-item-text {
   font-family: "Roboto";
@@ -157,6 +222,9 @@ body {
   color: #434455;
 }
 /***question****/
+.question {
+  padding-bottom: 120px;
+}
 .question-title {
   text-transform: capitalize;
   text-align: center;
@@ -167,14 +235,23 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  min-width: 323px;
+  margin-bottom: 72px;
 }
 .question-list {
+  display: flex;
+  gap: 24px;
 }
 .question-item {
+  width: 360px;
 }
 /***Team ***/
 .our-team {
   background-color: #f4f4fd;
+}
+.team-container {
+  background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 
 .team-title {
@@ -187,10 +264,21 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  padding-top: 120px;
+  margin: 72px;
 }
 
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-item {
   background-color: #ffffff;
+  width: 264px;
+}
+.team-text {
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .team-subtitle {
@@ -210,10 +298,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  align-items: center;
 }
 /****footer***/
+.footer-container {
+  background: var(--title-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 .footer {
   background: var(--title-color);
+  min-width: 264px;
 }
 
 .footer-text {
@@ -255,11 +350,21 @@ body {
 }
 /********************imgs page*******************/
 /*******************buttons****************/
+.section-container {
+  padding-top: 96px;
+  padding-left: 120px;
+}
 .section {
 }
 .varieties-list {
+  display: flex;
+  max-width: 586px;
+  margin-left: auto;
+  gap: 24px;
 }
 .varieties-item {
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .varieties-btn {
   font-family: "Roboto", sans-serif;
@@ -283,10 +388,15 @@ body {
 
 /********imgs******/
 .imgs {
+  width: 360px;
 }
 .imgs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 .imgs-item {
+  width: calc((100%- 144px) / 9);
 }
 .imgs-item-link {
 }
