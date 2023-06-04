@@ -17,8 +17,7 @@ body {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0 auto;
   outline: 1px solid red;
 }
 img {
@@ -66,6 +65,9 @@ ul {
 .header-menu {
   display: flex;
   gap: 40px;
+}
+.header-menu-item {
+  padding: 24px 0;
 }
 .link {
   text-decoration: none;
@@ -223,7 +225,7 @@ ul {
   gap: 24px;
 }
 .criteria-item {
-  width: calc((100% - 72) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .criteria-subtitle {
   font-family: "Roboto";
