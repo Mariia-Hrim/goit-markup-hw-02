@@ -271,11 +271,12 @@ ul {
 /***Team ***/
 .our-team {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-container {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 32px 16px;
 }
 
 .team-title {
@@ -289,7 +290,6 @@ ul {
   text-transform: capitalize;
   color: var(--title-color);
   padding-top: 120px;
-  margin: 72px;
   margin-bottom: 8px;
 }
 
@@ -304,6 +304,7 @@ ul {
   padding-right: 16px;
   background-color: #ffffff;
   width: 264px;
+  border-radius: 0px 0px 4px 4px;
 }
 .team-text {
   padding-top: 16px;
@@ -367,6 +368,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--active-links);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   font-family: "Roboto";
@@ -380,16 +383,18 @@ ul {
 /********************imgs page*******************/
 /*******************buttons****************/
 .section-container {
-  padding-top: 96px;
-  padding-left: 120px;
 }
 .section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .varieties-list {
   display: flex;
+  justify-content: center;
   max-width: 586px;
   margin-left: auto;
   gap: 24px;
+  margin-bottom: 72px;
 }
 .varieties-item {
   border: 1px solid #e7e9fc;
@@ -405,14 +410,22 @@ ul {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .varieties-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 .varieties-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 /********imgs******/
@@ -423,9 +436,11 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .imgs-item {
-  width: calc((100%- 144px) / 9);
+  width: calc((100%-48px) / 3);
 }
 .imgs-item-link {
 }
@@ -446,4 +461,12 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+}
+.imgs-item-link {
+}
+.name-aap {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
