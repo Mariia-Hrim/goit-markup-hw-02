@@ -162,7 +162,6 @@ ul {
   padding-bottom: 188px;
 }
 .hero-container {
-  align-items: center;
 }
 
 .hero-title {
@@ -176,6 +175,8 @@ ul {
   color: #ffffff;
   max-width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-btn {
@@ -195,6 +196,8 @@ ul {
   height: 56px;
   display: block;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-btn:hover {
   background-color: #404bbf;
@@ -301,10 +304,10 @@ ul {
   gap: 24px;
 }
 .team-item {
-  padding-top: 32px;
+  /*padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 16px;*/
   background-color: #ffffff;
   width: 264px;
   border-radius: 0px 0px 4px 4px;
@@ -336,7 +339,7 @@ ul {
 }
 /****footer***/
 .footer-container {
-  background: var(--title-color);
+  /*background: var(--title-color);*/
   /*padding: 100px 0;*/
 }
 .footer {
@@ -352,6 +355,7 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   color: #f4f4fd;
+  width: 264px;
 }
 .footer-logo-studio {
   font-family: "Raleway", sans-serif;
@@ -408,16 +412,16 @@ ul {
   font-family: "Roboto", sans-serif;
   background: #f4f4fd;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+  /*font-weight: 500;*/
+  /*font-size: 16px;*/
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-  padding-top: 12px;
+  /*padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 24px;
-  padding-right: 24px;
+  padding-right: 24px;*/
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
