@@ -46,11 +46,7 @@ ul {
   padding-top: 24px;
   padding-bottom: 24px;
   width: 100%;
-  /*max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 0;
-  margin-right: 0;***/
+
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -224,8 +220,7 @@ ul {
 }
 .criteria-list {
   display: flex;
-  /**padding-right: 156px;
-  padding-left: 156px;**/
+
   padding-left: 0;
   gap: 24px;
 }
@@ -304,10 +299,6 @@ ul {
   gap: 24px;
 }
 .team-item {
-  /*padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;*/
   background-color: #ffffff;
   width: 264px;
   border-radius: 0px 0px 4px 4px;
@@ -339,8 +330,6 @@ ul {
 }
 /****footer***/
 .footer-container {
-  /*background: var(--title-color);*/
-  /*padding: 100px 0;*/
 }
 .footer {
   background: var(--title-color);
@@ -399,8 +388,7 @@ ul {
 .varieties-list {
   display: flex;
   justify-content: center;
-  max-width: 586px;
-  margin-left: auto;
+
   gap: 24px;
   margin-bottom: 72px;
 }
@@ -412,18 +400,15 @@ ul {
   font-family: "Roboto", sans-serif;
   background: #f4f4fd;
   font-style: normal;
-  /*font-weight: 500;*/
-  /*font-size: 16px;*/
+
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-  /*padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;*/
+
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
 }
 .varieties-btn:hover {
   color: #ffffff;
